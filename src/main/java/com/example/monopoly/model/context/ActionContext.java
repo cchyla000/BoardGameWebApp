@@ -1,0 +1,14 @@
+package com.example.monopoly.model.context;
+
+public enum ActionContext {
+
+  NONE,
+  PLAYER_WAIT_TO_ROLL_DICE,
+  PLAYER_DECIDE_TO_PURCHASE_PROPERTY,
+  PLAYER_MUST_GAIN_FUNDS_TO_PAY_RENT,
+  PLAYER_DECIDE_TO_ACCEPT_DEAL,
+  PLAYER_WAIT_TO_END_TURN;
+
+
+
+}
